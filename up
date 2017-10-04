@@ -1,0 +1,21 @@
+#!/bin/bash
+#read n
+#$1 can be given with the filename but read doesnot work like that
+level=$1
+
+echo initial-
+pwd
+for i in $(seq $1)
+do  
+    cd ..
+done
+echo final-
+pwd
+
+#cd .. will not work in shell scripting
+#since bash will create a child process and executes every command in it
+#it gets killed at the end
+#therefore pwd gives the answer but cd doesnot happen in the original directory instead happens in the child directory which was created
+# use source up.sh instead of bash up.sh
+# cd - (prev directory) don't forget..:P
+
