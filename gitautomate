@@ -1,4 +1,7 @@
 #!/bin/bash
+read username
+read password
 git add .
 git commit -m "$1"
-git push
+git push $username $password
+
