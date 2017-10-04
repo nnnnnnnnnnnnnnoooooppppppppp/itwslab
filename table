@@ -5,3 +5,4 @@ do
  echo "$n X $i = $((n*i))"
 done
 
+# in bash since * is a wildcar .. if you want to do multiplication using expr use \* instead of *
