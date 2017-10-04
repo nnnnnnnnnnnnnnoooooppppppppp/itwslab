@@ -1,0 +1,12 @@
+commands:
+git clone
+git commit
+git add
+git push
+git status
+git log
+git pull
+rightnow:::::::::::::::\
+        :::::::::::::::/
+        im dancing
+
